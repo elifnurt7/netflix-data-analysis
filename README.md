@@ -15,6 +15,18 @@ The project was originally completed as part of a university course and is prese
 - tidyr
 - stringr
 
+## Dataset
+
+This project uses the **Netflix Movies and TV Shows** dataset created by Shivam Bansal and available on Kaggle.
+
+Dataset: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+The dataset is provided under the **CC0: Public Domain** license.
+
+The dataset file used in this project is stored in:
+
+`data/netflix_titles.csv`
+
 ## Analysis
 
 The project is organized around five hypotheses. Each hypothesis is explored by preparing and filtering the relevant data, creating visualizations, and interpreting the resulting patterns.
@@ -54,6 +66,8 @@ library(ggplot2)
 library(tidyr)
 library(stringr)
 ```
+
+The notebook loads the dataset from the `data` folder, so the repository structure should be kept intact when running the analysis.
 
 ## Purpose
 
